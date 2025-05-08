@@ -1,0 +1,7 @@
+double piedi = 1;
+double metri = 0;
+
+metri = 0.305 * piedi;
+
+System.out.println("Piedi: " + piedi);
+System.out.println("Metri: " + metri);

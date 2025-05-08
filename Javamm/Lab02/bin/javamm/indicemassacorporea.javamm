@@ -1,0 +1,7 @@
+int peso = 82;
+double altezza = 1.75;
+double indice = 0;
+
+indice = peso / Math.pow(altezza, 2);
+
+System.out.println("Indice di massa corporea: " + indice);

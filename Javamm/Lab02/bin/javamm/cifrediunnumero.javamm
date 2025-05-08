@@ -1,0 +1,14 @@
+int numero = 320;
+int somma = 0;
+
+if(numero > 999){
+	System.out.println("Inserire un numero di MAX 3 cifre");
+	return;
+}
+
+while(numero > 0){
+	somma += numero % 10;
+	numero /= 10;
+}
+
+System.out.println("Somma delle cifre del numero: " + somma);

@@ -1,0 +1,6 @@
+float c = 35; //Temperatura in gradi Celsius
+float f = 0; //Temperatura gradi Fahrenheit
+
+f = (9 / 5) * c + 32;
+
+System.out.println("Temperatura in Celsius: " + c + " Temperatura in Fahrenheit: " + f);

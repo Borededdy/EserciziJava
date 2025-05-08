@@ -1,0 +1,8 @@
+int m = 5;
+float t0 = 15, t1 = 45;
+double energia = 0;
+
+energia = 4184 * m * (t1 - t0);
+
+System.out.println("Energia necessaria per scaldare " + m + " kili di acqua da una temperatura di " +
+	t0 + "° a " + t1 + "° è di: " + energia);
