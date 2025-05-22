@@ -1,0 +1,11 @@
+int fixRound(int a){
+	if ((a%10)>=5){
+		a=((a/10)*10)+10;
+	} else {
+		a=(a/10)*10;
+	}
+	return a;
+}
+int roundSum(int a, int b, int c) {
+  return (fixRound(a)+fixRound(b)+fixRound(c));
+}
